@@ -33,7 +33,7 @@ A pypi package to send message in different mediums.
    bot.addContent("title: 'test2'\nvalue: 'val2'")
    ```
 
-5. **send **
+5. **send**
    ```python
    bot.send()
    ```
