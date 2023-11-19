@@ -6,7 +6,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="PlanetLink",
-    version="0.0.1",
+    version="0.0.2",
     author="vu1nex",
     author_email="me@vu1nex.com",
     description="A pypi package to send message in different mediums.",
