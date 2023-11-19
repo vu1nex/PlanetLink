@@ -48,7 +48,7 @@ class wxMessage:
         elif sign =="COMPLETE":
             self.message["sign"] = "✅"
         elif sign =="INFO":
-            self.message["sign"] = "�"
+            self.message["sign"] = "ℹ️"
         else:
             self.message["sign"] = "⛔"
 
@@ -79,3 +79,7 @@ class wxMessage:
     # get sendMessage
     def getSendMessage(self):
         return self.message["sendMessage"]
+    
+    # clear content
+    def clearContent(self):
+        self.message["content"] = []

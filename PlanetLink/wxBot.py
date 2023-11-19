@@ -80,3 +80,11 @@ class wxBot:
     # add content
     def addContent(self,content):
         self.wxMessageDemo.addContent(content)
+
+    # get send message
+    def getSendMessage(self):
+        return self.wxMessageDemo.getSendMessage()
+    
+    # clear content
+    def clearContent(self):
+        self.wxMessageDemo.clearContent()
