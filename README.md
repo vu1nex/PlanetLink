@@ -79,3 +79,4 @@ A pypi package to send message in different mediums.
 ## Pypi release version log
 
 - `0.0.1` : first version of PlanetLink
+- `0.0.2` : add clearContent and getSendContent function
